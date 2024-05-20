@@ -115,16 +115,16 @@ const Projects = () => {
                                 className="mt-20">
                                 <div className="hidden lg:flex  lg:flex-row">
                                     {index % 2 === 0 ? <Image src={projectImage.bigImage} alt="project pics" width={200} height={200} className="border-4" style={{ width: 200, height: 300 }} /> : <div className="px-6"><div className="flex flex-wrap justify-center my-4">
-                                        {projectImage.skills.map(skill => (
-                                            <div className="flex justify-center mx-4">
+                                        {projectImage.skills.map((skill, id) => (
+                                            <div className="flex justify-center mx-4" key={id}>
                                                 <span className="p-1 border-2 rounded-md w-32 text-center mt-4 border-dashed ">{skill}</span>
                                             </div>
                                         ))}
                                     </div>{projectImage.description}
                                     </div>}
                                     {index % 2 === 0 ? <div className=" px-6"><div className="flex flex-wrap justify-center my-4">
-                                        {projectImage.skills.map(skill => (
-                                            <div className="flex justify-center mx-4">
+                                        {projectImage.skills.map((skill, id) => (
+                                            <div className="flex justify-center mx-4" key={id}>
                                                 <span className="p-1 border-2 rounded-md w-32 text-center mt-4 border-dashed ">{skill}</span>
                                             </div>
                                         ))}
@@ -136,8 +136,8 @@ const Projects = () => {
                                     <Image src={projectImage.bigImage} alt="project pics" width={200} height={200} className="border-4" style={{ width: 200, height: 300 }} />
                                     <p className="my-8 text-center">{projectImage.description}</p>
                                     <div className="flex flex-wrap justify-evenly my-4">
-                                        {projectImage.skills.map(skill => (
-                                            <div className="w-1/2 flex justify-center">
+                                        {projectImage.skills.map((skill, id) => (
+                                            <div className="w-1/2 flex justify-center" key={id}>
                                                 <span className="p-1 border-2 rounded-md w-3/4 text-center mt-4 border-dashed ">{skill}</span>
                                             </div>
                                         ))}
