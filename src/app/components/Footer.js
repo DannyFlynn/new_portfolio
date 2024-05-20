@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className="w-full p-3">
                 <p>
-                    Congratulations! You've reached the bottom of my portfolio. Thanks for scrolling all the way down! 🚀 Let's chat and make some magic happen! 💬✨
+                    Congratulations! You&apos;ve reached the bottom of my portfolio. Thanks for scrolling all the way down! 🚀 Let&apos;s chat and make some magic happen! 💬✨
                 </p>
             </div>
         </div>
