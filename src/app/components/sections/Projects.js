@@ -34,17 +34,17 @@ const variants = {
 const webData = [
     {
         id: 1, imageMobile: eccom, bigImage: eccomDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Stripe'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Stripe'], description: 'Crafting an Online Store using Next.js, TypeScript, Stripe, and Redux! I integrated Stripe for secure payment processing.',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
     },
     {
         id: 2, imageMobile: eccom, bigImage: holidayDesktop, seeInfo: false,
-        skills: ['NextJS', 'Bootstrap', 'Frontend', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        skills: ['NextJS', 'Bootstrap', 'Frontend', 'Frontend'], description: 'Jetset Holidays is a React TypeScript application that lets you search for awesome vacation options. I built it using hooks like useState, useContext, useEffect, and useRef, so you know its super modern and efficient and for the styling I have used bootstrap.',
         url: 'https://gilded-fairy-bc9a53.netlify.app/'
     },
     {
         id: 3, imageMobile: eccom, bigImage: moviesDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Api', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        skills: ['NextJS', 'Tailwind', 'Api', 'Frontend'], description: 'Next.js Movies is a TypeScript-driven web application crafted with Next.js and Axios. It introduces a security layer by prompting users to select from two options before gaining access to the main content, thereby preventing URL tampering. The application seamlessly integrates with The Movie Database (TMDb) via Axios for fetching movie data.',
         url: 'https://statuesque-khapse-537fcf.netlify.app/'
     }
 ];
