@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const angleDownIcon = <FontAwesomeIcon icon={faAngleDown} size="3x" className="text-red-500" />
 export const barsIcon = <FontAwesomeIcon icon={faBars} size="2x" />
-export const crossIcon = <FontAwesomeIcon icon={faXmark} size="3x" />
+export const crossIcon = <FontAwesomeIcon icon={faXmark} size="2x" />
 export const phoneIcon = <FontAwesomeIcon icon={faPhone} size="2x" />
 export const mailIcon = <FontAwesomeIcon icon={faEnvelope} size="2x" />
 

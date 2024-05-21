@@ -4,13 +4,13 @@ import ProjectTitle from "./ProjectTitle";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import eccom from "../../images/eccom.png";
-import holiday from "../../images/holiday.png";
-import movies from "../../images/movies.png";
+
 
 import eccomDesktop from "../../images/eccom_desktop.png";
 import holidayDesktop from "../../images/holiday_desktop.png";
 import moviesDesktop from "../../images/movies_desktop.png";
+
+import turdBurger from "../../images/turd_burger.png";
 
 
 
@@ -33,55 +33,53 @@ const variants = {
 
 const webData = [
     {
-        id: 1, imageMobile: eccom, bigImage: eccomDesktop, seeInfo: false,
+        id: 1, bigImage: eccomDesktop, seeInfo: false,
         skills: ['NextJS', 'Tailwind', 'Fullstack', 'Stripe'], description: 'Crafting an Online Store using Next.js, TypeScript, Stripe, and Redux! I integrated Stripe for secure payment processing.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
+        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
     {
-        id: 2, imageMobile: eccom, bigImage: holidayDesktop, seeInfo: false,
+        id: 2, bigImage: holidayDesktop, seeInfo: false,
         skills: ['NextJS', 'Bootstrap', 'Frontend', 'Frontend'], description: 'Jetset Holidays is a React TypeScript application that lets you search for awesome vacation options. I built it using hooks like useState, useContext, useEffect, and useRef, so you know its super modern and efficient and for the styling I have used bootstrap.',
-        url: 'https://gilded-fairy-bc9a53.netlify.app/'
+        url: 'https://gilded-fairy-bc9a53.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
     {
-        id: 3, imageMobile: eccom, bigImage: moviesDesktop, seeInfo: false,
+        id: 3, bigImage: moviesDesktop, seeInfo: false,
         skills: ['NextJS', 'Tailwind', 'Api', 'Frontend'], description: 'Next.js Movies is a TypeScript-driven web application crafted with Next.js and Axios. It introduces a security layer by prompting users to select from two options before gaining access to the main content, thereby preventing URL tampering. The application seamlessly integrates with The Movie Database (TMDb) via Axios for fetching movie data.',
-        url: 'https://statuesque-khapse-537fcf.netlify.app/'
+        url: 'https://statuesque-khapse-537fcf.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     }
 ];
 
 const gameData = [
     {
-        id: 1, imageMobile: holiday, bigImage: holidayDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
+        id: 1, bigImage: turdBurger, seeInfo: false,
+        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!',
+        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
-    {
-        id: 2, imageMobile: holiday, bigImage: holidayDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
-    },
-    {
-        id: 3, imageMobile: holiday, bigImage: holidayDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
-    }
+
 ];
 
 const appData = [
     {
-        id: 1, imageMobile: movies, bigImage: moviesDesktop, seeInfo: false,
+        id: 1, bigImage: moviesDesktop, seeInfo: false,
         skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
+        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
     {
-        id: 2, imageMobile: movies, bigImage: moviesDesktop, seeInfo: false,
+        id: 2, bigImage: moviesDesktop, seeInfo: false,
         skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
+        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
     {
-        id: 3, imageMobile: movies, bigImage: moviesDesktop, seeInfo: false,
+        id: 3, bigImage: moviesDesktop, seeInfo: false,
         skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/'
+        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
+        github: 'https://github.com/DannyFlynn/nextJsEcom'
     }
 ];
 
@@ -145,8 +143,11 @@ const Projects = () => {
                                 </div>
 
                                 <div className="flex justify-center mt-4  lg:my-0 border-red-500 border-b-2 p-8">
-                                    <a href={projectImage.url} className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">View Live</a>
-                                    <a href={projectImage.url} className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 ml-6 w-36 text-center mb-10">Github</a>
+                                    {count === 0 ?
+                                        <a href={projectImage.url} target="_blank" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">View Live</a>
+                                        : <div><a href="/downloads/turd_burger.exe" download className="hidden lg:block bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">Download</a>
+                                            <a href="/downloads/turd_burger_vs.apk" download className="block lg:hidden bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">Download</a> </div>}
+                                    <a href={projectImage.github} target="_blank" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 ml-6 w-36 text-center mb-10">Github</a>
                                 </div>
                             </motion.li>
                         ))}

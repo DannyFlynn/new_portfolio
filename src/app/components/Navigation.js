@@ -36,10 +36,10 @@ export const Navigation = () => {
 
                 className="flex">
                 <div className="bg-black md:w-1/2 lg:w-2/3 opacity-50" onClick={() => setIsOpen(isOpen => !isOpen)}></div>
-                <ul className="w-full md:w-1/2 lg:w-1/3  h-full bg-red-500 bg-opacity-75 flex flex-col justify-evenly items-center">
-                    <li className="underline font-bold text-lg"><a href="/" onClick={() => setIsOpen(!isOpen)}>Contact</a></li>
-                    <li className="underline font-bold text-lg"><a href="#projects" onClick={() => setIsOpen(!isOpen)}>Projects</a></li>
-                    <li className="underline font-bold text-lg"><a href="#about" onClick={() => setIsOpen(!isOpen)}>About</a></li>
+                <ul className="w-full md:w-1/2 lg:w-1/3  h-full bg-red-500 bg-opacity-75 flex flex-col justify-evenly items-center text-2xl">
+                    <li className="underline font-bold"><a href="/" onClick={() => setIsOpen(!isOpen)}>Contact</a></li>
+                    <li className="underline font-bold"><a href="#projects" onClick={() => setIsOpen(!isOpen)}>Projects</a></li>
+                    <li className="underline font-bold"><a href="#about" onClick={() => setIsOpen(!isOpen)}>About</a></li>
                 </ul>
 
             </motion.nav>
