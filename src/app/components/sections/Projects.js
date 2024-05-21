@@ -55,7 +55,7 @@ const webData = [
 const gameData = [
     {
         id: 1, bigImage: turdBurger, seeInfo: false,
-        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!',
+        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!(Please follow github link for the code and to play)',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
         github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
@@ -144,9 +144,8 @@ const Projects = () => {
 
                                 <div className="flex justify-center mt-4  lg:my-0 border-red-500 border-b-2 p-8">
                                     {count === 0 ?
-                                        <a href={projectImage.url} target="_blank" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">View Live</a>
-                                        : <div><a href="/downloads/turd_burger.exe" download className="hidden lg:block bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">Download</a>
-                                            <a href="/downloads/turd_burger_vs.apk" download className="block lg:hidden bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">Download</a> </div>}
+                                        <a href={projectImage.url} target="_blank" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 mr-6 w-36 text-center mb-10">View Live</a> : null}
+
                                     <a href={projectImage.github} target="_blank" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 ml-6 w-36 text-center mb-10">Github</a>
                                 </div>
                             </motion.li>
