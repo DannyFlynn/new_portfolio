@@ -55,7 +55,7 @@ const webData = [
 const gameData = [
     {
         id: 1, bigImage: turdBurger, seeInfo: false,
-        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!(Please follow github link for the code and to play)',
+        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!(Please follow github link for the code and to play.... work in progress 😊💩)',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
         github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
