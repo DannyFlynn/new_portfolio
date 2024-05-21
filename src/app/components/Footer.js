@@ -5,13 +5,13 @@ const Footer = () => {
     return (
         <div className="w-full flex flex-col items-center bg-red-500 bg-opacity-75">
             <div className="w-full p-3 justify-center flex lg:justify-end">
-                <a href="#" className="mx-6">{githubIcon}</a>
-                <a href="#" className="mx-6">{phoneIcon}</a>
-                <a href="#" className="mx-6">{mailIcon}</a>
+                <a href="https://github.com/DannyFlynn" className="mx-6">{githubIcon}</a>
+                <a href="tel:07895457593" className="mx-6">{phoneIcon}</a>
+                <a href="mailto:flynny386@gmail.com" className="mx-6">{mailIcon}</a>
             </div>
-            <div className="w-full p-3">
+            <div className="w-full p-3 text-center">
                 <p>
-                    Congratulations! You&apos;ve reached the bottom of my portfolio. Thanks for scrolling all the way down! 🚀 Let&apos;s chat and make some magic happen! 💬✨
+                    Developed and designed with keys and mouse strokes 🧑🏻‍💻 Danny Flynn
                 </p>
             </div>
         </div>

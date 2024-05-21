@@ -12,7 +12,7 @@ const Header = () => {
                 <p className="my-4 ">I&apos;m a self-taught developer with a passion for anything related to software. Whether it&apos;s web development, game design, or app creation, I love exploring and working on new projects. </p>
                 <div className="flex justify-center mt-10 lg:mt-8">
                     <a href="tel:07895457593" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 w-28 sm:w-36 text-center mb-10 mx-6">Call me</a>
-                    <a href="mailto:carrnicki@hotmail.com" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 w-28 sm:w-36 text-center mb-10 mx-6">Email me</a>
+                    <a href="mailto:flynny386@gmail.com" className="bg-red-500 p-2 rounded-md border-white border-2 lg:hover:bg-red-600 w-28 sm:w-36 text-center mb-10 mx-6">Email me</a>
                 </div>
             </div>
             <div className="p-4">

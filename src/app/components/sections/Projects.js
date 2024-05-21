@@ -12,6 +12,8 @@ import moviesDesktop from "../../images/movies_desktop.png";
 
 import turdBurger from "../../images/turd_burger.png";
 
+import appPic from "../../images/app_dev_pic.jpg";
+
 
 
 
@@ -34,53 +36,42 @@ const variants = {
 const webData = [
     {
         id: 1, bigImage: eccomDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Stripe'], description: 'Crafting an Online Store using Next.js, TypeScript, Stripe, and Redux! I integrated Stripe for secure payment processing.',
+        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Stripe'], description: 'Crafting an Online Store using Next.js, TypeScript, Stripe, and Redux! I integrated Stripe for secure payment processing. 🛹 🛒',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
         github: 'https://github.com/DannyFlynn/nextJsEcom'
     },
     {
         id: 2, bigImage: holidayDesktop, seeInfo: false,
-        skills: ['NextJS', 'Bootstrap', 'Frontend', 'Frontend'], description: 'Jetset Holidays is a React TypeScript application that lets you search for awesome vacation options. I built it using hooks like useState, useContext, useEffect, and useRef, so you know its super modern and efficient and for the styling I have used bootstrap.',
+        skills: ['React', 'Bootstrap', 'Typescript', 'Frontend'], description: 'Jetset Holidays is a React TypeScript application that lets you search for awesome vacation options. I built it using hooks like useState, useContext, useEffect, and useRef, so you know its super modern and efficient and for the styling I have used bootstrap. ✈️ 🏄🏻',
         url: 'https://gilded-fairy-bc9a53.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
+        github: 'https://github.com/DannyFlynn/typescriptHolidays'
     },
     {
         id: 3, bigImage: moviesDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Api', 'Frontend'], description: 'Next.js Movies is a TypeScript-driven web application crafted with Next.js and Axios. It introduces a security layer by prompting users to select from two options before gaining access to the main content, thereby preventing URL tampering. The application seamlessly integrates with The Movie Database (TMDb) via Axios for fetching movie data.',
+        skills: ['NextJS', 'Axios', 'Api', 'Frontend'], description: 'Next.js Movies is a TypeScript-driven web application crafted with Next.js and Axios. It introduces a security layer by prompting users to select from two options before gaining access to the main content, thereby preventing URL tampering. The application seamlessly integrates with The Movie Database (TMDb) via Axios for fetching movie data. 🎥 🍿',
         url: 'https://statuesque-khapse-537fcf.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
+        github: 'https://github.com/DannyFlynn/nextjs_movies'
     }
 ];
 
 const gameData = [
     {
         id: 1, bigImage: turdBurger, seeInfo: false,
-        skills: ['Godot', 'GD Script', 'Inkskape'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!(Please follow github link for the code and to play.... work in progress 😊💩)',
+        skills: ['Godot', 'GD Script', 'Inkskape', 'Nodes'], description: 'Inspired by my son, who finds anything with the word POO hilarious, I created Turdburger, a wacky and fun mobile game. In Turdburger, your goal is to stack your burger as high as you can to build an impressive score. But watch out! Turds are dropping from above, and if one lands on your burger, it will cost you your score—or even your life! Keep your burger clean and stack it high, but beware of the messy hazards! YIKEEEEEESSSS!!!!!(Please follow github link for the code and to play.... work in progress 😊💩)',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
+        github: 'https://github.com/DannyFlynn/turd_burger'
     },
 
 ];
 
 const appData = [
     {
-        id: 1, bigImage: moviesDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        id: 1, bigImage: appPic, seeInfo: false,
+        skills: ['Flutter', 'Widgets', 'Dart', 'UI/UX'], description: 'I am currently on an exciting journey in Android development, focusing on mastering Flutter. While I have not yet created portfolio pieces, I have built several apps that demonstrate my solid understanding of Flutters core concepts. My projects showcase my skills and dedication to continuous learning. Feel free to explore my work on GitHub!',
         url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
+        github: 'https://github.com/DannyFlynn/flutter_quiz'
     },
-    {
-        id: 2, bigImage: moviesDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
-    },
-    {
-        id: 3, bigImage: moviesDesktop, seeInfo: false,
-        skills: ['NextJS', 'Tailwind', 'Fullstack', 'Frontend'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        url: 'https://vocal-fenglisu-4ca0eb.netlify.app/',
-        github: 'https://github.com/DannyFlynn/nextJsEcom'
-    }
+
 ];
 
 
@@ -115,7 +106,7 @@ const Projects = () => {
                                     {index % 2 === 0 ? <Image src={projectImage.bigImage} alt="project pics" width={200} height={200} className="border-4" style={{ width: 200, height: 300 }} /> : <div className="px-6"><div className="flex flex-wrap justify-center my-4">
                                         {projectImage.skills.map((skill, id) => (
                                             <div className="flex justify-center mx-4" key={id}>
-                                                <span className="p-1 border-2 rounded-md w-32 text-center mt-4 border-dashed ">{skill}</span>
+                                                <span className="p-1 border-2 rounded-md w-36 text-center mt-4 border-dashed ">{skill}</span>
                                             </div>
                                         ))}
                                     </div>{projectImage.description}
@@ -123,7 +114,7 @@ const Projects = () => {
                                     {index % 2 === 0 ? <div className=" px-6"><div className="flex flex-wrap justify-center my-4">
                                         {projectImage.skills.map((skill, id) => (
                                             <div className="flex justify-center mx-4" key={id}>
-                                                <span className="p-1 border-2 rounded-md w-32 text-center mt-4 border-dashed ">{skill}</span>
+                                                <span className="p-1 border-2 rounded-md w-36 text-center mt-4 border-dashed">{skill}</span>
                                             </div>
                                         ))}
                                     </div>{projectImage.description}
